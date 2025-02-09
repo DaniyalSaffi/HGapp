@@ -1,5 +1,9 @@
-__pycache__/
-db.sqlite3
-.env
+# Ignore all migration files
 *.pyc
 *.pyo
+*.sqlite3
+__pycache__/
+*.py
+
+# But keep the __init__.py file
+!__init__.py
